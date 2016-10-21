@@ -1,0 +1,11 @@
+Mon Dec 15 20:01:35 1980::vrkknxe@xxrjhmwx.net::345729695-7-8
+Mon Apr 03 00:49:47 2006::ajtjh@dmawchbsg.gov::1143996587-5-9
+Fri Jul 03 20:48:59 2009::nczg@wxbbumycxi.com::1246625339-4-10
+Wed Feb 27 15:52:29 1974::nsbvvja@tcwlpqikyocv.com::131183549-7-12
+Thu Oct 11 20:14:23 1990::aecxhw@gnhhgs.net::655647263-6-6
+C:\Users\sjy\AppData\Roaming\Sublime Text 3\Packages\User
+ "pylint_path":"C:/Users/sjy/AppData/Roaming/Sublime Text 3/Packages/Pylinter"
+
+
+select TOP 10 Id, Body from Posts where Tags like '%python%' and PostTypeId=1 and
+Id not in (select top 350000 Id from Posts where Tags like '%python%' and  PostTypeId=1) order by Id
